@@ -21,15 +21,16 @@ Projeto Automação de Teste baseia-se nas seguintes ferramentas:
 3. Instale uma máquina virtual com o seguinte comando **pip install virtualenv**
 4. Criando o ambiente virtual:
     - No terminal, acesse a pasta de sua escolha e execute o comando **virtualenv virtualTrans**
-5. Inicie o ambiente virtual:
-    - No terminal, execute esse comando na pasta onde você criou a máquina virtual **virtualTrans\Scripts\activate**
-6. Na pasta onde você baixou o projeto, acesse a pasta, e instale as dependências com o seguinte comando: **pip install requirements.txt**
-4. Incluir o chromedriver no ambiente path da máquina virtual criada
-     - **Copiar o chromedriver contido na pasta {pasta_que_você_criou}/drive**
+5. Incluir o chromedriver no ambiente path da máquina virtual criada
+     - **Copiar o chromedriver contido na pasta labtrans/drive**
      - **Colar o chromedriver na pasta Script dentro do virtualenv criado**
 `virtualTrans/Script`
+6. Inicie o ambiente virtual:
+    - No terminal, execute esse comando na pasta onde você criou a máquina virtual **virtualTrans\Scripts\activate**
+7. Na pasta onde você baixou o projeto, acesse a pasta labtrans, e instale as dependências com o seguinte comando: **pip install -r requirements.txt**
+
 
 ## Execução dos testes
 
-Dentro da pasta {pasta_que_você_criou}/feature, rodar o seguinte comando
+Dentro da pasta que você baixou o projeto, rode o seguinte comando
 **behave  --junit**
